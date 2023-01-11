@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="mmall:war" />
+      <artifact name="mmall:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,33 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10ee00f0-a902-4689-af50-8ca67d3bc91d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/ResponseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/TokenCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManagementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/MD5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mmall_Web_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmall.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mmall_war_exploded/WEB-INF/classes/com/mmall/controller/portal/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mmall_war_exploded/WEB-INF/classes/com/mmall/controller/portal/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mmall_war_exploded/WEB-INF/classes/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mmall_war_exploded/WEB-INF/classes/mmall.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mmall_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mmall_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mmall_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mmall_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mmall.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mmall.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +81,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.keymap",
@@ -112,6 +98,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/artifacts" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -228,7 +215,7 @@
       <workItem from="1672599251202" duration="13344000" />
       <workItem from="1672895294533" duration="326000" />
       <workItem from="1672896031172" duration="12585000" />
-      <workItem from="1673231028695" duration="6464000" />
+      <workItem from="1673231028695" duration="13758000" />
     </task>
     <servers />
   </component>
