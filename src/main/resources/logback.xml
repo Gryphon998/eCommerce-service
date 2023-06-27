@@ -43,11 +43,10 @@
         </filter>
     </appender>
 
-    <logger name="com.ecommerce" additivity="false" level="INFO" >
-        <appender-ref ref="ecommerce" />
+    <logger name="com.ecommerce" additivity="false" level="INFO">
+        <appender-ref ref="ecommerce"/>
         <appender-ref ref="console"/>
     </logger>
-
 
 
     <!-- geelynote mybatis log 日志 -->

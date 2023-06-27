@@ -8,7 +8,7 @@ import java.io.Serializable;
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 public class ServerResponse<T> implements Serializable {
 
-    private int status;
+    private final int status;
     private String msg;
     private T data;
 
@@ -31,25 +31,6 @@ public class ServerResponse<T> implements Serializable {
     private ServerResponse(int status, String msg) {
         this.status = status;
         this.msg = msg;
-    }
-
-    // Method to check if the response is a success
-    @JsonIgnore
-    public boolean isSuccess() {
-        return this.status == ResponseCode.SUCCESS.getCode();
-    }
-
-    // Getter methods for the class variables
-    public int getStatus() {
-        return status;
-    }
-
-    public String getMsg() {
-        return msg;
-    }
-
-    public T getData() {
-        return data;
     }
 
     // Static methods to create different types of server responses
@@ -79,5 +60,24 @@ public class ServerResponse<T> implements Serializable {
 
     public static <T> ServerResponse<T> createByErrorMessageCode(int errorCode, String errorMessage) {
         return new ServerResponse<T>(errorCode, errorMessage);
+    }
+
+    // Method to check if the response is a success
+    @JsonIgnore
+    public boolean isSuccess() {
+        return this.status == ResponseCode.SUCCESS.getCode();
+    }
+
+    // Getter methods for the class variables
+    public int getStatus() {
+        return status;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public T getData() {
+        return data;
     }
 }

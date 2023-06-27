@@ -22,9 +22,10 @@ public class UserController {
 
     /**
      * User login API
+     *
      * @param username User's username
      * @param password User's password
-     * @param session HttpSession object to store user's session
+     * @param session  HttpSession object to store user's session
      * @return ServerResponse containing User object if login is successful
      */
     @RequestMapping(value = "login.do", method = RequestMethod.POST)
@@ -39,6 +40,7 @@ public class UserController {
 
     /**
      * User logout API
+     *
      * @param session HttpSession object to invalidate user's session
      * @return ServerResponse indicating success
      */
@@ -51,6 +53,7 @@ public class UserController {
 
     /**
      * User registration API
+     *
      * @param user User object containing registration details
      * @return ServerResponse indicating success
      */
@@ -62,7 +65,8 @@ public class UserController {
 
     /**
      * Check if a given value is valid for a specific type
-     * @param str The value to be checked
+     *
+     * @param str  The value to be checked
      * @param type The type to check against
      * @return ServerResponse indicating if the value is valid
      */
@@ -74,6 +78,7 @@ public class UserController {
 
     /**
      * Get user information API
+     *
      * @param session HttpSession object to retrieve user's session
      * @return ServerResponse containing User object if user is logged in
      */
@@ -89,6 +94,7 @@ public class UserController {
 
     /**
      * Get security question for password recovery API
+     *
      * @param username User's username
      * @return ServerResponse containing the security question
      */
@@ -100,9 +106,10 @@ public class UserController {
 
     /**
      * Check the answer to the security question for password recovery API
+     *
      * @param username User's username
      * @param question Security question
-     * @param answer User's answer to the security question
+     * @param answer   User's answer to the security question
      * @return ServerResponse indicating if the answer is correct
      */
     @RequestMapping(value = "forget_check_answer.do", method = RequestMethod.POST)
@@ -113,7 +120,8 @@ public class UserController {
 
     /**
      * Reset password after successful security question verification API
-     * @param username User's username
+     *
+     * @param username    User's username
      * @param passwordNew New password to be set
      * @param forgetToken Forget token for validation
      * @return ServerResponse indicating if the password reset was successful
@@ -126,7 +134,8 @@ public class UserController {
 
     /**
      * Reset password for the currently logged-in user API
-     * @param session HttpSession object to retrieve user's session
+     *
+     * @param session     HttpSession object to retrieve user's session
      * @param passwordOld Old password
      * @param passwordNew New password to be set
      * @return ServerResponse indicating if the password reset was successful
@@ -143,8 +152,9 @@ public class UserController {
 
     /**
      * Update user information for the currently logged-in user API
+     *
      * @param session HttpSession object to retrieve user's session
-     * @param user User object containing updated information
+     * @param user    User object containing updated information
      * @return ServerResponse containing the updated User object
      */
     @RequestMapping(value = "update_information.do", method = RequestMethod.POST)
@@ -166,6 +176,7 @@ public class UserController {
 
     /**
      * Get user information for the currently logged-in user API
+     *
      * @param session HttpSession object to retrieve user's session
      * @return ServerResponse containing the User object
      */
