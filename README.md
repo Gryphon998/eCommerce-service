@@ -1,4 +1,4 @@
-# E-Commerce Service
+# Ecommerce Service
 
 ## Introduction
 This project is a separated back-end e-commerce website developed using the SSM framework, with MySQL as the database. It includes seven modules: user management, orders, categories, products, shopping cart, addresses, and online payment.
@@ -30,9 +30,24 @@ In summary as depicted in the diagram:
 * The web application relies on an FTP server to store static content, which can be served to end users by Nginx.
 
 ## Modules
-### User Management
+### User
+Implemented robust methods to mitigate security vulnerabilities, including horizontal and vertical privilege escalation. These measures incorporate techniques such as MD5 plaintext encryption with salt values to protect sensitive data. 
 
-### Orders
+Additionally, the utilization of Guava caching enhances system performance while fortifying security. I have also adhered to design principles that prioritize the creation of highly reusable service response objects, ensuring consistency and minimizing the risk of introducing vulnerabilities. Moreover, the effective usage of MyBatis plugins strengthens our system's security by optimizing database interactions and preventing potential loopholes.
+
+### Management
+Developed a sophisticated recursive classification system capable of seamlessly supporting an infinite hierarchical tree structure for efficient categorization purposes. This innovative design ensures that our system can effortlessly handle complex and extensive classification hierarchies.
+
+To further enhance the system's functionality, we meticulously rewrote the hashCode() and equals() methods. This meticulous process enables the deduplication of classification objects, preventing any redundant or duplicate data from cluttering the system. By implementing these methods with utmost care and precision, we have optimized the system's performance and streamlined the classification process.
+
+### Merchandise
+Completed the backend development of product creation and rich-text handling, which includes entering product information and editing/saving rich-text content. Additionally, implemented frontend functionalities for product search, listing, and detailed view, enabling users to conveniently browse and find product information.
+
+Regarding integration with the FTP server, developed a Spring MVC file upload feature that allows users to upload files to the FTP server and perform read and processing operations on the uploaded files.
+
+Furthermore, utilized file streams to read properties files, facilitating the reading and retrieval of configuration parameters from the files.
+
+Lastly, implemented the conversion relationships between abstract POJOs (Persistent Objects), BOs (Business Objects), and VOs (View Objects) to enhance system scalability and flexibility while reducing code duplication and data transmission redundancy.
 
 ### Categories
 
