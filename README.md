@@ -20,7 +20,7 @@ This project is a separated back-end e-commerce website developed using the SSM 
 ## Architecture
 In summary as depicted in the diagram:
 <p align="center">
-  <img src="https://github.com/Gryphon998/eCommerce-service/assets/41406456/9e74abd1-066d-497b-997a-3dbeaf1c88ae">
+  <img src="https://github.com/Gryphon998/eCommerce-service/assets/41406456/153cd4b7-ef67-4aec-a2dc-58ae9bf05cb7">
 </p>
 
 * The system architecture involves Nginx as the initial receiver of user requests. 
@@ -31,7 +31,7 @@ In summary as depicted in the diagram:
 
 ## Interfaces
 <p align="center">
-  <img src="https://github.com/Gryphon998/eCommerce-service/assets/41406456/8297ce02-1e9f-4824-b24c-852bd86ac8a4">
+  <img src="https://github.com/Gryphon998/eCommerce-service/assets/41406456/36a63df9-3418-45a0-a6ae-833709559fd1">
 </p>
 
 ## Modules
