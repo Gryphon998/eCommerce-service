@@ -29,6 +29,11 @@ In summary as depicted in the diagram:
 * MyBatis is responsible for handling database operations and connects to MySQL for data storage and retrieval.
 * The web application relies on an FTP server to store static content, which can be served to end users by Nginx.
 
+## Interfaces
+<p align="center">
+  <img src="https://github.com/Gryphon998/eCommerce-service/assets/41406456/8297ce02-1e9f-4824-b24c-852bd86ac8a4">
+</p>
+
 ## Modules
 ### User
 Implemented robust methods to mitigate security vulnerabilities, including horizontal and vertical privilege escalation. These measures incorporate techniques such as MD5 plaintext encryption with salt values to protect sensitive data. 
@@ -49,19 +54,22 @@ Furthermore, utilized file streams to read properties files, facilitating the re
 
 Lastly, implemented the conversion relationships between abstract POJOs (Persistent Objects), BOs (Business Objects), and VOs (View Objects) to enhance system scalability and flexibility while reducing code duplication and data transmission redundancy.
 
-### Categories
-
-### Products
-
 ### Shopping Cart
+Leverage a set of meticulously designed and reusable core methods to effectively tackle the challenge of precision loss in floating-point calculations encountered during commercial operations. By implementing these methods, the module ensures accurate and reliable results, eliminating the risk of significant data discrepancies caused by inherent limitations of floating-point arithmetic.
 
-### Addresses
+The utilization of these highly reusable core methods not only streamlines development efforts but also guarantees consistent and precise calculations across various business processes. By encapsulating complex floating-point operations within these methods, the system promotes code reuse, modularity, and maintainability, leading to more efficient and robust commercial operations.
 
-### Payment
+### Address
+Developed a comprehensive set of features to enable create, read, update, and delete operations (CRUD) within the system. These functionalities were seamlessly integrated with the powerful object binding capabilities provided by Spring MVC's data binding mechanism. This integration facilitated smooth and efficient data exchange between the frontend and backend components, enhancing the overall user experience.
 
-## Interfaces
+Furthermore, special attention was given to handling automatically generated primary keys in the context of MyBatis. By implementing effective strategies and techniques, the system ensures the proper generation and management of primary keys, thereby reinforcing data integrity and preventing potential security vulnerabilities related to horizontal privilege escalation.
 
-## Test
+Through meticulous implementation and rigorous testing, these enhancements solidify the system's resilience against horizontal privilege escalation vulnerabilities. By addressing these potential risks, the system establishes a secure foundation, ensuring that unauthorized access and data manipulation are prevented, and safeguarding the integrity and confidentiality of the system's data.
+
+### Order
+Successfully implemented a comprehensive set of features that enable users to fill in order information, generate orders, and establish seamless connections between the product module, shopping cart module, and user module. 
+
+Throughout the implementation, a strong emphasis was placed on ensuring the system's security by proactively mitigating common vulnerabilities, including the risks associated with horizontal privilege escalation and vertical privilege escalation, which are commonly found in business logic. By addressing these security concerns, the system maintains the integrity of user data, safeguards against unauthorized access, and upholds the confidentiality of sensitive information.
 
 ## Developmenp Environment
 | Name  | Version |
